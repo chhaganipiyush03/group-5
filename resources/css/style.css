@@ -1,53 +1,45 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
-
-.login-container, .welcome-container {
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
     background: #fff;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-form label {
-    display: block;
-    margin-bottom: 5px;
-    color: #666;
-}
-
-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-    background: #007BFF;
-    color: #fff;
+button, input[type="submit"] {
+    background-color: #333;
+    color: white;
     border: none;
+    padding: 10px;
     border-radius: 4px;
     cursor: pointer;
 }
-
-button:hover {
-    background: #0056b3;
+button:hover, input[type="submit"]:hover {
+    background-color: #555;
 }
-
-.error {
-    color: red;
-    text-align: center;
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
